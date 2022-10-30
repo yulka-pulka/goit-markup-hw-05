@@ -120,7 +120,7 @@ body {
   content: "";
 
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
 
   display: block;
   width: 100%;
@@ -532,7 +532,7 @@ body {
 }
 
 .footer .icon-bg {
-  color: var(--white-color);
+  fill: var(--white-color);
   background-color: var(--icon-bg-color);
 }
 
